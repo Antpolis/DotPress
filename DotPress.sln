@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPress", "DotPress.csproj", "{0C7C5566-7E93-4EA7-AA07-4B17A968AA1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPress.Admin", "src\Admin\DotPress.Admin.csproj", "{0C7C5566-7E93-4EA7-AA07-4B17A968AA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPress.Domain", "src\Domain\DotPress.Domain.csproj", "{404AE14F-86B6-4E48-8C3B-7B3983F80F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPress.Application", "src\Application\DotPress.Application.csproj", "{8D620859-1F17-499C-B07D-F4767A37466A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPress.Infrastructure", "src\Infrastructure\DotPress.Infrastructure.csproj", "{1549AB0C-364B-4119-82F4-A565D982B775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{0C7C5566-7E93-4EA7-AA07-4B17A968AA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7C5566-7E93-4EA7-AA07-4B17A968AA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7C5566-7E93-4EA7-AA07-4B17A968AA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404AE14F-86B6-4E48-8C3B-7B3983F80F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404AE14F-86B6-4E48-8C3B-7B3983F80F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404AE14F-86B6-4E48-8C3B-7B3983F80F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404AE14F-86B6-4E48-8C3B-7B3983F80F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D620859-1F17-499C-B07D-F4767A37466A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D620859-1F17-499C-B07D-F4767A37466A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D620859-1F17-499C-B07D-F4767A37466A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D620859-1F17-499C-B07D-F4767A37466A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1549AB0C-364B-4119-82F4-A565D982B775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1549AB0C-364B-4119-82F4-A565D982B775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1549AB0C-364B-4119-82F4-A565D982B775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1549AB0C-364B-4119-82F4-A565D982B775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
